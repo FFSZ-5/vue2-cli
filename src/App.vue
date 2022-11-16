@@ -4,7 +4,17 @@
     <router-view />
   </div>
 </template>
+<script>
+import { getNews } from '@/services'
+export default {
+  data () {
+    return {}
+  },
+  created () {
 
+  }
+}
+</script>
 <style lang="less" scoped>
 #app {
   .body {

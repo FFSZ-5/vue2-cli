@@ -3,7 +3,7 @@ export default {
   //   process.env.NODE_ENV === 'development'
   //     ? 'development base_url'
   //     : 'production base_url',
-  baseURL: process.env.NODE_ENV === 'development' ? 'http://xxx' : '/api', // api的base_url
+  baseURL: process.env.NODE_ENV === 'development' ? './' : '/api', // api的base_url
   // 自定义的请求头
   headers: {
     post: {
