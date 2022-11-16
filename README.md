@@ -61,7 +61,7 @@ module.exports = {
 用于使 git 提交更加规范
 
 ```js
-npm install --save-dev commitizen
+npm install -g commitizen
 npm i cz-customizable --save-dev
 ```
 
